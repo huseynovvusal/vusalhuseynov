@@ -54,6 +54,7 @@ contact.addEventListener("click", contactClicked);
 
 function contactClicked() {
   hamburger.classList.remove("toggle");
+  navLink.classList.remove("nav-active");
   underline.classList.add("nav-underline-right");
   underline.classList.remove("nav-underline-center-1");
   underline.classList.remove("nav-underline-center-2");
